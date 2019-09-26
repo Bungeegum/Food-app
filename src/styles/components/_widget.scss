@@ -1,0 +1,29 @@
+//widget
+.widget{
+    background:#236692;
+    margin-bottom: $xl-size;
+}
+
+.widget__message{
+    color:#f7f7f7;
+    margin:0;
+    text-align:center;
+    padding:$m-size;
+    border-bottom: .1rem solid lighten ($light-blue, 10%)
+}
+// widget header 
+
+.widget-header{
+    background:#4d9ace;
+    color: #f7f7f7;
+    display:flex;
+    justify-content: space-between;
+    padding:$m-size;
+}
+
+
+//element sleector 
+.widget-header__title{
+    margin:0;
+
+}
